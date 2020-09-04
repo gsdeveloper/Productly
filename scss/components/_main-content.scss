@@ -1,0 +1,101 @@
+.Main {
+  margin-top: 3.8rem;
+  .Main__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49.6rem;
+  }
+  .Main__heading {
+    width: 110%;
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+    color: #2f281e;
+    @media (max-width: 946px) {
+      width: 100%;
+    }
+  }
+  .Main__content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 41.2%;
+    @media (max-width: 946px) {
+      flex-basis: 100%;
+    }
+  }
+  .Main__description {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #544837;
+    margin-top: 3rem;
+    @media (max-width: 946px) {
+      margin-top: 2.3rem;
+    }
+  }
+  .Main__link-container {
+    flex-basis: 70.65%;
+    height: 5.3rem;
+    margin-top: 5.9rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 36.6rem;
+    flex-wrap: wrap;
+
+    @media (max-width: 946px) {
+      margin-top: 3.5rem;
+    }
+  }
+  .Main__link {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    &--first {
+      flex-basis: 47.8%;
+      background: #ff9900;
+      border-radius: 4px;
+    }
+    &--second {
+      flex-basis: 44%;
+      @media (max-width: 946px) {
+        margin-top: 1rem;
+      }
+      &::before {
+        content: '';
+        width: 2rem;
+        height: 1.9rem;
+        margin-right: 0.85rem;
+        background: url('../../assets/icons/triangle.svg') no-repeat;
+      }
+    }
+  }
+  .Main__button {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    &--second {
+      font-weight: 500;
+      color: #ff9900;
+      text-decoration: underline;
+      white-space: nowrap;
+    }
+  }
+  .Main__image-background {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    flex-basis: 53%;
+    background: url('../../assets/images/main-image.png') no-repeat center;
+    background-size: contain;
+    @media (max-width: 946px) {
+      z-index: -1;
+      right: 0;
+      opacity: 0.03;
+      position: absolute;
+    }
+  }
+}

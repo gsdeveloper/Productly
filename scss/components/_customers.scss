@@ -1,0 +1,63 @@
+.Customers {
+  display: flex;
+  &__content {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    width: 54.2rem;
+    @media (max-width: 660px) {
+      min-width: initial;
+      width: 85%;
+    }
+    @media (max-width: 425px) {
+      width: 100%;
+      align-items: initial;
+    }
+    margin: 20.3rem auto 0 auto;
+  }
+  &__heading {
+    font-size: 3.6rem;
+    text-align: center;
+    color: #2f281e;
+    @media (max-width: 425px) {
+      text-align: left;
+    }
+  }
+  &__paragraph {
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 2.2rem;
+    color: #567592;
+    line-height: 2.6rem;
+    color: #567592;
+    text-align: center;
+    @media (max-width: 425px) {
+      text-align: left;
+    }
+  }
+  &__link {
+    margin-top: 4.5rem;
+  }
+  &__image {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    margin-top: 8.2rem;
+    min-height: 36.1rem;
+  }
+  &__link {
+    width: 21.6rem;
+    background: #ff9900;
+    height: 5.3rem;
+    border-radius: 4px;
+    display: flex;
+    place-content: center;
+  }
+  &__button {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+}
