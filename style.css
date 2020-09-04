@@ -303,10 +303,12 @@ img {
     font-size: 1.6rem;
     color: #ffffff; }
   .Present__background {
-    position: absolute;
     margin-top: 16.2rem;
+    min-height: 38.09rem;
+    width: 100%;
+    position: absolute;
     z-index: -1;
-    min-height: 38.09rem; }
+    left: 0; }
     @media (max-width: 990px) {
       .Present__background {
         display: none; } }

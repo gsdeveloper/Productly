@@ -83,14 +83,14 @@
     color: #ffffff;
   }
   &__background {
-    position: absolute;
     margin-top: 16.2rem;
-    z-index: -1;
     min-height: 38.09rem;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
     @media (max-width: 990px) {
       display: none;
     }
-  }
-  @media (max-width: 880px) {
   }
 }
