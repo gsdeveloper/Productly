@@ -42,7 +42,7 @@
     justify-content: space-between;
     max-width: 36.6rem;
     flex-wrap: wrap;
-
+    margin-top: -1rem;
     @media (max-width: 946px) {
       margin-top: 3.5rem;
     }
@@ -59,12 +59,11 @@
       flex-basis: 47.8%;
       background: #ff9900;
       border-radius: 4px;
+      margin-top: 1rem;
     }
     &--second {
       flex-basis: 44%;
-      @media (max-width: 946px) {
-        margin-top: 1rem;
-      }
+      margin-top: 1rem;
       &::before {
         content: '';
         width: 2rem;
