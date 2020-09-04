@@ -10,10 +10,13 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  @media (max-width: 340px) {
+    font-size: 47%;
+  }
 }
 
 body {
-  font: 16px poppins;
+  font: 1.6em poppins;
   margin: 3rem 10.2%;
   overflow-x: hidden;
   @media (max-width: 425px) {
