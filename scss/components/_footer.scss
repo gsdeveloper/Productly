@@ -1,8 +1,14 @@
 .Footer {
   margin: 10.8rem 0 10rem 0;
+  @media (max-width: 768px) {
+    margin: 9rem 0 4rem 0;
+  }
   border-top: 1px solid rgba(188, 208, 229, 0.496913);
   &__content {
     margin-top: 10.3rem;
+    @media (max-width: 768px) {
+      margin-top: 4rem;
+    }
     display: flex;
     justify-content: space-between;
     align-items: start;
