@@ -397,7 +397,7 @@ img {
       .Customers__content {
         min-width: initial;
         width: 85%; } }
-    @media (max-width: 425px) {
+    @media (max-width: 626px) {
       .Customers__content {
         width: 100%;
         align-items: initial;
@@ -406,7 +406,7 @@ img {
     font-size: 3.6rem;
     text-align: center;
     color: #2f281e; }
-    @media (max-width: 425px) {
+    @media (max-width: 626px) {
       .Customers__heading {
         text-align: left; } }
   .Customers__paragraph {
@@ -417,7 +417,7 @@ img {
     line-height: 2.6rem;
     color: #567592;
     text-align: center; }
-    @media (max-width: 425px) {
+    @media (max-width: 626px) {
       .Customers__paragraph {
         text-align: left; } }
   .Customers__link {
